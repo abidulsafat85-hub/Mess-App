@@ -1,0 +1,504 @@
+{
+  "date": "2026-09-24",
+  "lunch": {
+    "slot": "lunch",
+    "date": "2026-09-24",
+    "question": "আজ দুপুরে কি আপনার মিল চলবে?",
+    "status": "DISPATCHED_TO_COOK",
+    "totalActiveMembers": 8,
+    "yesCount": 2,
+    "noCount": 1,
+    "pendingCount": 5,
+    "votes": {
+      "mem-1": {
+        "memberId": "mem-1",
+        "memberName": "Safat",
+        "phone": "8801874278012",
+        "status": "YES",
+        "votedAt": "2026-09-24T12:30:34.709Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-2": {
+        "memberId": "mem-2",
+        "memberName": "Abdur Rahman",
+        "phone": "88013254379171",
+        "status": "NO",
+        "votedAt": "2026-09-24T11:06:05.123Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-3": {
+        "memberId": "mem-3",
+        "memberName": "Abid",
+        "phone": "88013065493891",
+        "status": "PENDING"
+      },
+      "mem-4": {
+        "memberId": "mem-4",
+        "memberName": "Imtiaz",
+        "status": "PENDING",
+        "phone": "8801797998201"
+      },
+      "mem-1789833109459": {
+        "memberId": "mem-1789833109459",
+        "memberName": "Abir",
+        "phone": "88019070297771",
+        "status": "YES",
+        "votedAt": "2026-09-24T11:06:04.507Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-1789833147235": {
+        "memberId": "mem-1789833147235",
+        "memberName": "Akib",
+        "status": "PENDING",
+        "phone": "88018482427451"
+      },
+      "mem-1789913754090": {
+        "memberId": "mem-1789913754090",
+        "memberName": "Anik",
+        "phone": "88019102701421",
+        "status": "PENDING"
+      },
+      "mem-1789917193786": {
+        "memberId": "mem-1789917193786",
+        "memberName": "Shaibal",
+        "status": "PENDING",
+        "phone": "8807559948081"
+      }
+    },
+    "dispatchedAt": "2026-09-24T11:05:00.004Z",
+    "cookMessageSent": "আজ দুপুরে মোট 0 জনের মিল রান্না করবেন"
+  },
+  "dinner": {
+    "slot": "dinner",
+    "date": "2026-09-24",
+    "question": "আজ রাতে কি আপনার মিল চলবে?",
+    "status": "SCHEDULED",
+    "totalActiveMembers": 8,
+    "yesCount": 2,
+    "noCount": 1,
+    "pendingCount": 5,
+    "votes": {
+      "mem-1": {
+        "memberId": "mem-1",
+        "memberName": "Safat",
+        "phone": "8801874278012",
+        "status": "YES",
+        "votedAt": "2026-09-24T12:30:34.709Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-2": {
+        "memberId": "mem-2",
+        "memberName": "Abdur Rahman",
+        "phone": "88013254379171",
+        "status": "NO",
+        "votedAt": "2026-09-24T11:06:54.301Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-3": {
+        "memberId": "mem-3",
+        "memberName": "Abid",
+        "phone": "88013065493891",
+        "status": "PENDING"
+      },
+      "mem-4": {
+        "memberId": "mem-4",
+        "memberName": "Imtiaz",
+        "status": "PENDING",
+        "phone": "8801797998201"
+      },
+      "mem-1789833109459": {
+        "memberId": "mem-1789833109459",
+        "memberName": "Abir",
+        "phone": "88019070297771",
+        "status": "YES",
+        "votedAt": "2026-09-24T11:06:53.543Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-1789833147235": {
+        "memberId": "mem-1789833147235",
+        "memberName": "Akib",
+        "status": "PENDING",
+        "phone": "88018482427451"
+      },
+      "mem-1789913754090": {
+        "memberId": "mem-1789913754090",
+        "memberName": "Anik",
+        "phone": "88019102701421",
+        "status": "PENDING"
+      },
+      "mem-1789917193786": {
+        "memberId": "mem-1789917193786",
+        "memberName": "Shaibal",
+        "status": "PENDING",
+        "phone": "8807559948081"
+      }
+    }
+  },
+  "cookPhone": "8801812345679",
+  "cookName": "দোকানদার / বাবুর্চি",
+  "isAutomationEnabled": true,
+  "gateway": {
+    "provider": "ultramsg",
+    "instanceId": "instance192286",
+    "token": "j1rumux3r9i4jb0t"
+  },
+  "templates": {
+    "lunchPollMessage": "📢 *মেস মিল পোল (দুপুরের মিল)*\nআজ দুপুরের কি আপনার মিল চলবে?\n\nউত্তর দিতে মেসেজ করুন:\n১ = হ্যাঁ (মিল অন)\n২ = না (মিল অফ)\n\n⚠️ (সকাল ১১:০০ টা এর মধ্যে না জানালে মিল স্বয়ংক্রিয়ভাবে অন হিসেবে গণ্য হবে)",
+    "dinnerPollMessage": "📢 *মেস মিল পোল (রাতের মিল)*\nআজ রাতের কি আপনার মিল চলবে?\n\nউত্তর দিতে মেসেজ করুন:\n১ = হ্যাঁ (মিল অন)\n২ = না (মিল অফ)\n\n⚠️ (বিকাল ০৫:০০ টা এর মধ্যে না জানালে মিল স্বয়ংক্রিয়ভাবে অন হিসেবে গণ্য হবে)",
+    "cookNotificationTemplate": "আজ {slot} মোট {count} জনের মিল রান্না করবেন",
+    "morningPollTime": "08:00",
+    "afternoonPollTime": "14:00",
+    "lunchCutoffTime": "11:00",
+    "dinnerCutoffTime": "17:00",
+    "tomorrowPollMessage": "📢 *মেস মিল পোল (আগামীকালের মিল)*\nতারিখ: {tomorrow_date}\n\nদোকানদারের নিয়ম অনুযায়ী ১ দিন আগেই মিল অন/অফ জানাতে হবে।\nকাল আপনার কয়টি মিল চলবে?\n\nউত্তর দিতে নিচের যেকোনো একটি নম্বর লিখে পাঠান:\n১ = দুপুর ও রাত (দুটোই অন)\n২ = শুধু দুপুর (দুপুর চলবে, রাত অফ)\n৩ = শুধু রাত (রাত চলবে, দুপুর অফ)\n৪ = কোনো মিল চলবে না (মিল অফ)\n\n⚠️ (রাত ১০:৩০ টা এর মধ্যে না জানালে মিল স্বয়ংক্রিয়ভাবে অন হিসেবে গণ্য হবে)",
+    "cookTomorrowNotificationTemplate": "📢 *আগামীকালের মেস মিলের তালিকা ({tomorrow_date})*\n\nকালকের\n🍛 দুপুরের মিল: {lunch_count} জন\n🍲 রাতের মিল: {dinner_count} জন\n",
+    "advancePollTime": "20:00",
+    "advanceCutoffTime": "22:30",
+    "enableLunchPoll": false,
+    "enableDinnerPoll": false,
+    "enableAdvancePoll": true
+  },
+  "lastSyncAt": "2026-09-24T11:02:48.820Z",
+  "logs": [
+    {
+      "timestamp": "12:42:02",
+      "message": "মেসেজ টেমপ্লেট এবং শিডিউল সফলভাবে আপডেট করা হয়েছে।",
+      "type": "success"
+    },
+    {
+      "timestamp": "12:42:02",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:42:01",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:58",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:58",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:57",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:56",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:55",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:54",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:54",
+      "message": "মেসেজ টেমপ্লেট এবং শিডিউল সফলভাবে আপডেট করা হয়েছে।",
+      "type": "success"
+    },
+    {
+      "timestamp": "12:41:53",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:53",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:52",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:51",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:50",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:44",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:44",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:43",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:42",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:41",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:41",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:40",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:39",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:38",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:37",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:36",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:34",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:33",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:32",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:31",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:31",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:30",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:29",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:28",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:28",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:27",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:26",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:25",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:25",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:24",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:23",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:22",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:21",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:20",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:20",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:19",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:18",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:17",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:16",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    },
+    {
+      "timestamp": "12:41:15",
+      "message": "Synced 8 active members from database",
+      "type": "info"
+    }
+  ],
+  "tomorrow": {
+    "targetDate": "2026-09-25",
+    "pollDate": "2026-09-24",
+    "question": "আগামীকাল আপনার কয়টা মিল চলবে? ১=দুপুর ও রাত, ২=শুধু দুপুর, ৩=শুধু রাত, ৪=মিল অফ",
+    "status": "SCHEDULED",
+    "totalActiveMembers": 8,
+    "bothCount": 1,
+    "lunchOnlyCount": 0,
+    "dinnerOnlyCount": 0,
+    "noneCount": 0,
+    "pendingCount": 7,
+    "totalLunchMeals": 1,
+    "totalDinnerMeals": 1,
+    "votes": {
+      "mem-1": {
+        "memberId": "mem-1",
+        "memberName": "Safat",
+        "phone": "8801874278012",
+        "choice": "BOTH",
+        "lunchStatus": "YES",
+        "dinnerStatus": "YES",
+        "rawResponse": "Ha",
+        "votedAt": "2026-09-24T12:30:34.709Z",
+        "isAutoResolved": false,
+        "manualOverride": false
+      },
+      "mem-2": {
+        "memberId": "mem-2",
+        "memberName": "Abdur Rahman",
+        "phone": "88013254379171",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      },
+      "mem-3": {
+        "memberId": "mem-3",
+        "memberName": "Abid",
+        "phone": "88013065493891",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      },
+      "mem-4": {
+        "memberId": "mem-4",
+        "memberName": "Imtiaz",
+        "phone": "8801797998201",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      },
+      "mem-1789833109459": {
+        "memberId": "mem-1789833109459",
+        "memberName": "Abir",
+        "phone": "88019070297771",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      },
+      "mem-1789833147235": {
+        "memberId": "mem-1789833147235",
+        "memberName": "Akib",
+        "phone": "88018482427451",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      },
+      "mem-1789913754090": {
+        "memberId": "mem-1789913754090",
+        "memberName": "Anik",
+        "phone": "88019102701421",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      },
+      "mem-1789917193786": {
+        "memberId": "mem-1789917193786",
+        "memberName": "Shaibal",
+        "phone": "8807559948081",
+        "choice": "PENDING",
+        "lunchStatus": "PENDING",
+        "dinnerStatus": "PENDING"
+      }
+    }
+  }
+}
